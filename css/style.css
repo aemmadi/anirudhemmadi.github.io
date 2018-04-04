@@ -30,7 +30,7 @@ h5 {
 	font-weight: 700;
 	line-height: 20px;
 }
-#email-kanna {
+#email-kanna, #mobile-phone, #skype-phone {
 	color: #0645AD;
 }
 p.intro {
