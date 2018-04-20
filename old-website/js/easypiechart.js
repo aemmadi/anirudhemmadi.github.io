@@ -199,13 +199,13 @@ var CanvasRenderer = function(el, options) {
 
 var EasyPieChart = function(el, opts) {
 	var defaultOptions = {
-		barColor: '#fff',
-		trackColor: '#434987',
-		scaleColor: '#434987',
+		barColor: '#121d1f',
+		trackColor: '#fff',
+		scaleColor: '#fff',
 		scaleLength: 0,
 		lineCap: 'square',
 		lineWidth: 7,
-		size: 140,
+		size: 152,
 		rotate: 0,
 		animate: 1000,
 		easing: function (x, t, b, c, d) { // more can be found here: http://gsgd.co.uk/sandbox/jquery/easing/
