@@ -26,6 +26,7 @@ A portfolio website that has my whole life's work
 <ul>
   <li><strong><a href="https://github.com/kanna6501/iCycle" target="_blank">iCycle</a></strong>: <em>Recycling Made Easy</em> - App Development</li>
   <li><strong><a href="https://github.com/kanna6501/BitText" target="_blank">BitText</a></strong>: <em>Texting based on the blockchain network</em> - App Development</li>
+  <li><strong><a href="https://www.github.com/kanna6501/Kanna-Bot" target="_blank">Kanna Bot</a></strong>: <em>A simple easy to use multipurpose discord bot written in nodejs</em> - Web Development</li>
   <li><strong><a href="http://www.youtube.com/AniHD" target="_blank">Ani HD</a></strong>: <em>Tutorial Videos</em> - Video Editing</li>
   <li><strong><a href="http://www.anirudhemmadi.com/portfolio/color-guessing-game" target="_blank">RGB Color Game</a></strong>: <em>A simple web game to get familiarized with the rgb values of colors</em> - Web Development</li>
 </ul>
