@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 function testTypingEffect() {
     //caption = $('input#user-caption').val();
-    caption = "Hello, my name is <b><i>Xiao</i></b> and I am a ";
+    caption = "Hello There! I am <b><i>Anirudh Emmadi, and I'm a ";
     type();
 }
 
@@ -24,9 +24,9 @@ function type() {
         if (captionLength == 18){
           captionLength = 24;
         }
-        if (captionLength == 28){
-          captionLength = 36;
-        }
+        // if (captionLength == 28){
+        //   captionLength = 36;
+        // }
     } else {
         captionLength = 0;
         caption = '';
