@@ -824,7 +824,7 @@ i.fa-angle-double-down{
 	min-width: 100%;
 	max-width: 100%;
 	height: auto;
-	background: #3085a3;
+	/* background: #3085a3; */
 	text-align: center;
 	cursor: pointer;
 }
@@ -893,9 +893,9 @@ i.fa-angle-double-down{
 /***** Bubba *****/
 /*---------------*/
 
-figure.effect-bubba {
+/* figure.effect-bubba {
 	background: #854705;
-}
+} */
 
 figure.effect-bubba img {
 	opacity: 0.7;
