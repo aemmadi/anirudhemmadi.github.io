@@ -20,7 +20,7 @@ function testTypingEffect() {
 function type() {
     captionEl.html(caption.substr(0, captionLength++));
     if(captionLength < caption.length+1) {
-        setTimeout('type()', 150);
+        setTimeout('type()', 100);
         if (captionLength == 18){
           captionLength = 24;
         }
