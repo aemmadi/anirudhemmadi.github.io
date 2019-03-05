@@ -1,0 +1,180 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Anirudh} \headerlastnamestyle{Emmadi} \\
+	\vspace{2mm}
+	{\faEnvelope\ emmadi.anirudh@gmail.com} | {\faMobile\ +1(469)403-1726} | {\faMapMarker\ Little Elm, TX} | {\faLink\ https://anirudhemmadi.com}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Webmaster}
+	{Artificial Intelligence Society}
+	{UTDallas, Richardson, TX}
+	{Jan 2019 – Present}
+	{\begin{cvitems}
+		\item {Develop and Maintain website for AIS Organization at UTDallas}
+		\end{cvitems}}
+	\cventry
+	{President \& Founder}
+	{Application Development Club}
+	{Coppell High School, Coppell, TX}
+	{Sep 2017 – June 2018}
+	{\begin{cvitems}
+		\item {Took the initiative to create an app dev club to inspire and guide high schoolers into the world of tech and developement}
+		\end{cvitems}}
+	\cventry
+	{Web Developer}
+	{Freelancer}
+	{Remote}
+	{June 2016 – Oct 2017}
+	{\begin{cvitems}
+		\item {Developed and maintained websites for clients. Worked with HTML5, CSS3, Bootstrap, Javascript, nodeJS, and jQuery.}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Languages:  & {\skill{ Java, C++, JavaScript (ES6), HTML, CSS}} \\
+		Frameworks/Libraries:  & {\skill{ NodeJS, ReactJS, React-Native, jQuery, Bootstrap}} \\
+		Databases:  & {\skill{ MongoDB, NoSQL, Firebase}} \\
+		Miscellaneous:  & {\skill{ Git + Github, Linux Command Line, Markdown, JSON, API Calling}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{A food delivery service for students, by students. A mobile application tailored specifically for restaurants, and food courts located in college campuses.}
+	{DormDash}
+	{React-Native, JavaScript, NoSQL}
+	{http://dormdashapp.com}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{A multi-purpose discord bot that does everything from getting user game stats to displaying memes.}
+	{KannaBot}
+	{nodeJS, discordJS, MongoDB}
+	{https://kannabot.ml}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{An android application that allows users to scan an object and determines whether the object is recyclable or not.}
+	{iCycle}
+	{Java, Android Studio, Firebase}
+	{https://github.com/KannaDev/iCycle}
+	{}
+	
+	\vspace{-5mm}
+	\cventry
+	{A decentralized cloud storage platform. Made for Proof of Hack Hackathon in 24 hours.}
+	{BDrive}
+	{React, IPFS, MetaMask}
+	{https://github.com/KannaDev/bdrive}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+\cvsection{Honors \& Awards}
+\begin{cvhonors}
+	\cvhonor
+	{HackUTD Winner \textasciitilde{} Second Place}
+	{Presented \& demoed in front of 500+ developers and 119 teams.}
+	{HackUTD}
+	{Feb 2019}
+	\cvhonor
+	{GameChangers Hackathon Winner \textasciitilde{} First Place}
+	{Best discord bot with tremendous potential.}
+	{OP:Live}
+	{Sep 2018}
+	\cvhonor
+	{SevenTablets Hackathon Winner \textasciitilde{} Third Place}
+	{First ever hackathon, built my first android application.}
+	{SevenTablets}
+	{Jan 2018}
+\end{cvhonors}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Bachelor of Science (BS) in Computer Science}
+	{The University Of Texas At Dallas}
+	{Richardson, TX}
+	{Sep 2018 – May 2022}
+	{GPA: 3.8}
+	\cventry
+	{High School Degree}
+	{Coppell High School}
+	{Coppell, TX}
+	{Aug 2016 – June 2018}
+	{GPA: 5.4171}
+	\cventry
+	{High School Degree}
+	{Delhi Public School}
+	{Nacharam, Hyderabad, INDIA}
+	{June 2014 – April 2016}
+	{GPA: 9.2}
+\end{cventries}
+
+\vspace{-2mm}
+\ 
+\end{document}

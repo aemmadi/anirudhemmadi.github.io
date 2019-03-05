@@ -1,0 +1,194 @@
+{
+  "selectedTemplate": 2,
+  "headings": {
+    "skills": "Skills",
+    "education": "Education",
+    "work": "Experience",
+    "projects": "Projects",
+    "awards": "Honors & Awards"
+  },
+  "basics": {
+    "name": "Anirudh Emmadi",
+    "phone": "+1(469)403-1726",
+    "website": "https://anirudhemmadi.com",
+    "location": {
+      "address": "Little Elm, TX"
+    },
+    "email": "emmadi.anirudh@gmail.com"
+  },
+  "education": [
+    {
+      "institution": "The University Of Texas At Dallas",
+      "location": "Richardson, TX",
+      "studyType": "Bachelor of Science (BS)",
+      "startDate": "Sep 2018",
+      "endDate": "May 2022",
+      "gpa": "3.8",
+      "area": "Computer Science"
+    },
+    {
+      "institution": "Coppell High School",
+      "location": "Coppell, TX",
+      "studyType": "High School Degree",
+      "gpa": "5.4171",
+      "startDate": "Aug 2016",
+      "endDate": "June 2018"
+    },
+    {
+      "institution": "Delhi Public School",
+      "location": "Nacharam, Hyderabad, INDIA",
+      "studyType": "High School Degree",
+      "gpa": "9.2",
+      "startDate": "June 2014",
+      "endDate": "April 2016"
+    }
+  ],
+  "work": [
+    {
+      "website": "",
+      "highlights": [
+        "Develop and Maintain website for AIS Organization at UTDallas"
+      ],
+      "company": "Artificial Intelligence Society",
+      "position": "Webmaster",
+      "location": "UTDallas, Richardson, TX",
+      "startDate": "Jan 2019",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Took the initiative to create an app dev club to inspire and guide high schoolers into the world of tech and developement"
+      ],
+      "company": "Application Development Club",
+      "position": "President & Founder",
+      "location": "Coppell High School, Coppell, TX",
+      "startDate": "Sep 2017",
+      "endDate": "June 2018"
+    },
+    {
+      "highlights": [
+        "Developed and maintained websites for clients. Worked with HTML5, CSS3, Bootstrap, Javascript, nodeJS, and jQuery. "
+      ],
+      "position": "Web Developer",
+      "location": "Remote",
+      "startDate": "June 2016",
+      "endDate": "Oct 2017",
+      "company": "Freelancer"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "Java",
+        "C++",
+        "JavaScript (ES6)",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "keywords": [
+        "NodeJS",
+        "ReactJS",
+        "React-Native",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "name": "Frameworks/Libraries"
+    },
+    {
+      "keywords": [
+        "MongoDB",
+        "NoSQL",
+        "Firebase"
+      ],
+      "name": "Databases"
+    },
+    {
+      "keywords": [
+        "Git + Github",
+        "Linux Command Line",
+        "Markdown",
+        "JSON",
+        "API Calling"
+      ],
+      "name": "Miscellaneous"
+    }
+  ],
+  "projects": [
+    {
+      "name": "DormDash",
+      "description": "A food delivery service for students, by students. A mobile application tailored specifically for restaurants, and food courts located in college campuses.",
+      "url": "http://dormdashapp.com",
+      "keywords": [
+        "React-Native",
+        "JavaScript",
+        "NoSQL"
+      ]
+    },
+    {
+      "keywords": [
+        "nodeJS",
+        "discordJS",
+        "MongoDB",
+        null
+      ],
+      "name": "KannaBot",
+      "description": "A multi-purpose discord bot that does everything from getting user game stats to displaying memes.",
+      "url": "https://kannabot.ml"
+    },
+    {
+      "keywords": [
+        "Java",
+        "Android Studio",
+        "Firebase",
+        ""
+      ],
+      "name": "iCycle",
+      "description": "An android application that allows users to scan an object and determines whether the object is recyclable or not.",
+      "url": "https://github.com/KannaDev/iCycle"
+    },
+    {
+      "keywords": [
+        "React",
+        "IPFS",
+        "MetaMask",
+        null
+      ],
+      "name": "BDrive",
+      "description": "A decentralized cloud storage platform. Made for Proof of Hack Hackathon in 24 hours.",
+      "url": "https://github.com/KannaDev/bdrive"
+    }
+  ],
+  "awards": [
+    {
+      "title": "HackUTD Winner ~ Second Place",
+      "date": "Feb 2019",
+      "awarder": "HackUTD",
+      "summary": "Presented & demoed in front of 500+ developers and 119 teams."
+    },
+    {
+      "title": "GameChangers Hackathon Winner ~ First Place",
+      "date": "Sep 2018",
+      "awarder": "OP:Live",
+      "summary": "Best discord bot with tremendous potential."
+    },
+    {
+      "title": "SevenTablets Hackathon Winner ~ Third Place",
+      "date": "Jan 2018",
+      "awarder": "SevenTablets",
+      "summary": "First ever hackathon, built my first android application."
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "skills",
+    "projects",
+    "awards",
+    "education"
+  ]
+}
